@@ -1,0 +1,37 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/digital/pcd2ogm/devel/include/**",
+        "/home/digital/sgk/OGMPainting/devel/include/**",
+        "/home/digital/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/digital/sgk/OGMPainting/src/bev2map/include/**",
+        "/home/digital/sgk/OGMPainting/src/camera_utils/include/**",
+        "/home/digital/pcd2ogm/src/grid_map/grid_map_core/include/**",
+        "/home/digital/pcd2ogm/src/grid_map/grid_map_costmap_2d/include/**",
+        "/home/digital/pcd2ogm/src/grid_map/grid_map_cv/include/**",
+        "/home/digital/pcd2ogm/src/grid_map/grid_map_demos/include/**",
+        "/home/digital/pcd2ogm/src/grid_map/grid_map_filters/include/**",
+        "/home/digital/pcd2ogm/src/grid_map/grid_map_loader/include/**",
+        "/home/digital/pcd2ogm/src/grid_map/grid_map_octomap/include/**",
+        "/home/digital/pcd2ogm/src/grid_map/grid_map_pcl/include/**",
+        "/home/digital/pcd2ogm/src/grid_map/grid_map_ros/include/**",
+        "/home/digital/pcd2ogm/src/grid_map/grid_map_rviz_plugin/include/**",
+        "/home/digital/pcd2ogm/src/grid_map/grid_map_sdf/include/**",
+        "/home/digital/pcd2ogm/src/grid_map/grid_map_visualization/include/**",
+        "/home/digital/pcd2ogm/src/map_server/include/**",
+        "/home/digital/catkin_ws/src/mo_tracker/include/**",
+        "/home/digital/sgk/OGMPainting/src/ros_ipm/include/**",
+        "/home/digital/catkin_ws/src/touch2_driver/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

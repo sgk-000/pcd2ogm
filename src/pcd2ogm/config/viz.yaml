@@ -1,0 +1,36 @@
+grid_map_visualization:
+  grid_map_topic: /grid_map_pcl_loader_node/grid_map_from_raw_pointcloud
+  grid_map_visualizations:
+    - name: elevation_points
+      type: point_cloud
+      params:
+        layer: elevation
+
+    - name: map_region
+      type: map_region
+      params:
+        color: 3289650
+        line_width: 0.003
+
+    - name: elevation_grid
+      type: occupancy_grid
+      params:
+        layer: elevation
+        data_min: -0.3
+        data_max: 0.3
+
+    - name: surface_normals
+      type: vectors
+      params:
+        layer_prefix: normal_
+        position_layer: elevation
+        scale: 0.06
+        line_width: 0.005
+        color: 15600153 # red
+
+    - name: elevation_cells
+      type: grid_cells
+      params:
+        layer: elevation
+        lower_threshold: -0.2
+        upper_threshold: 0.2
