@@ -1,0 +1,1 @@
+rosrun map_server map_saver map:=/grid_map_visualization/elevation_grid
